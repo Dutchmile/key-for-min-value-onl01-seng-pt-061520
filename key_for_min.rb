@@ -3,11 +3,12 @@
 
 def key_for_min_value(name_hash)
 name_hash.each do |name, value|
-  min_value = nil
+  min_value = 0
   min_name = ""
-  if value == nil || value < min_value
+  if value == 0 || value < min_value
         value = min_value
         name = min_name
       end
+      min_name
     end
 end
