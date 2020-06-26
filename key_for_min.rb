@@ -11,6 +11,6 @@ name_hash.each do |name, value|
       else
         nil
       end
+      min_name
     end
-    min_name
 end
