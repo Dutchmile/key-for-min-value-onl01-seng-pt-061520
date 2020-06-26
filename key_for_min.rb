@@ -9,6 +9,6 @@ name_hash.each do |name, value|
         value = min_value
         name = min_name
       end
-      min_name
     end
+    min_name
 end
